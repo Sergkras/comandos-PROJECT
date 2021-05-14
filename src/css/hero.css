@@ -1,0 +1,205 @@
+.concert-list {
+  padding-left: 15px;
+  padding-right: 15px;
+  margin-right: auto;
+  margin-left: auto;
+
+  @media screen and (min-width: 280px) {
+    width: 280px;
+  }
+
+  @media screen and (min-width: 768px) {
+    width: 768px;
+  }
+
+  @media screen and (min-width: 1280px) {
+    width: 1280px;
+  }
+}
+
+body {
+  background-color: #0e0e0e;
+  margin: 0;
+}
+.concert-container {
+  width: 280px;
+
+  margin-left: auto;
+  margin-right: auto;
+}
+
+@media screen and (min-width: 768px) {
+  .concert-container {
+    width: 610px;
+  }
+}
+@media screen and (min-width: 1280px) {
+  .concert-container {
+    width: 946px;
+  }
+}
+
+@media screen and (min-width: 320px) {
+  .card {
+    font-size: 12px;
+  }
+}
+@media screen and (min-width: 768px) {
+  .card {
+    font-size: 14px;
+  }
+}
+
+.box.position {
+  position: absolute;
+  z-index: 2;
+}
+@media screen and (min-width: 320px) {
+  .box.position {
+    top: -10px;
+    left: 30px;
+  }
+}
+
+@media screen and (min-width: 768px) {
+  .box.position {
+    top: -14px;
+    left: 84px;
+  }
+}
+.card__name {
+  font-family: Montserrat;
+  font-style: normal;
+  font-size: 14px;
+  font-weight: 700;
+  line-height: 17px;
+  text-align: center;
+
+  color: #dc56c5;
+
+  margin-bottom: 5px;
+}
+
+@media screen and (min-width: 768px) {
+  .card__name {
+    font-size: 16px;
+    line-height: 20px;
+  }
+}
+
+.date {
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 17px;
+
+  text-align: center;
+
+  color: #ffffff;
+
+  margin-bottom: 5px;
+}
+
+@media screen and (min-width: 768px) {
+  .date {
+    font-size: 16px;
+    line-height: 20px;
+  }
+}
+
+.place_of_location {
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 12px;
+  line-height: 15px;
+  color: #ffffff;
+  text-align: center;
+}
+.material-icons {
+  font-size: 12px;
+}
+
+@media screen and (min-width: 768px) {
+  .place_of_location {
+    font-size: 14px;
+    line-height: 17px;
+  }
+  .material-icons {
+    font-size: 14px;
+  }
+}
+
+.gallery {
+  display: grid;
+  grid-template-rows: 1fr 1fr;
+  grid-template-columns: 138px 138px;
+  grid-gap: 1vw;
+  row-gap: 30px;
+  column-gap: 5px;
+}
+
+.card {
+  width: 138px;
+}
+
+.img-card {
+  height: 161px;
+  width: 128px;
+  border-radius: 50px 0px;
+  overflow: hidden;
+  cursor: pointer;
+}
+
+.img-container {
+  display: inline-block;
+  position: relative;
+  right: -50%;
+}
+
+.card__image {
+  height: 161px;
+
+  position: relative;
+  left: -50%;
+}
+
+@media screen and (min-width: 768px) {
+  .gallery {
+    grid-template-rows: 1fr 1fr 1fr;
+    grid-template-columns: 194px 194px 194px;
+    grid-gap: 2vw;
+  }
+
+  .card {
+    width: 194px;
+  }
+  .img-card {
+    width: 180px;
+    height: 227px;
+  }
+
+  .card__image {
+    height: 227px;
+  }
+}
+
+@media screen and (min-width: 1280px) {
+  .gallery {
+    grid-template-rows: 1fr 1fr 1fr 1fr;
+    grid-template-columns: 196px 196px 196px 196px;
+    grid-gap: 3vw;
+  }
+
+  .card {
+    width: 196px;
+  }
+  .img-card {
+    height: 227px;
+  }
+
+  .card__image {
+    height: 227px;
+  }
+}

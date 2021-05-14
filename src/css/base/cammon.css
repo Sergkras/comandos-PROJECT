@@ -1,0 +1,73 @@
+/* html {
+  box-sizing: border-box;
+  scroll-behavior: smooth;
+} */
+*,
+*::before,
+*::after {
+  box-sizing: inherit;
+}
+
+body {
+  margin: 0;
+  overflow-x: hidden;
+  font-family: Montserrat, sans-serif;
+  letter-spacing: 0.03em;
+}
+
+ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+a {
+  text-decoration: none;
+}
+button {
+  font-family: inherit;
+}
+address {
+  font-style: normal;
+}
+/* img {
+  display: block;
+  max-width: 100%;
+  height: auto;
+} */
+/* .container {
+ .container {
+  width: 100%;
+  margin-left: auto;
+  margin-right: auto;
+
+  @media screen and (min-width: 320px) {
+    padding-left: 25px;
+    padding-right: 25px;
+    width: 100%;
+  }
+
+  @media screen and (min-width: 768px) {
+    padding-left: 87px;
+    padding-right: 87px;
+    width: 100%;
+  }
+  @media screen and (min-width: 1200px) {
+    padding-left: 175px;
+    padding-right: 175px;
+    width: 100%;
+  }
+}
+} */
+p {
+  margin: 0;
+  padding: 0;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  padding: 0;
+  margin: 0;
+}

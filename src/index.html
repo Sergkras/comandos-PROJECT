@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;900&display=swap"
+      rel="stylesheet"
+    />
+    <title>Project</title>
+    <link
+      href="https://fonts.googleapis.com/icon?family=Material+Icons"
+      rel="stylesheet"
+    />
+  </head>
+
+  <body>
+    <header>
+      <div class="overlay">
+          <div class="head-container">
+          <div class="header_logo"></div>
+          <h1 class="heder_title">
+            FIND BEST EVENTS <br />
+            AROUND THE WORLD
+          </h1>
+          <form class="search-form" id="search-form">
+            <input 
+              class="search" 
+              type="text" 
+              placeholder="Start searching"
+              name="query"/>
+            <div class="dropdown">
+              <span class="defolt_value">Choose country</span>
+              <div class="dropdown-content">
+                <div class="counry">
+                  <p class="counry_list">
+                    <button class="counry_link">Canada</button>
+                  </p>
+                  <p class="counry_list">
+                    <button class="counry_link">Denmark</button>
+                  </p>
+                  <p class="counry_list">
+                    <button class="counry_link">Poland</button>
+                  </p>
+                  <p class="counry_list">
+                    <button class="counry_link">Israel</button>
+                  </p>
+                  <p class="counry_list">
+                    <button class="counry_link">England</button>
+                  </p>
+                  <p class="counry_list">
+                    <button class="counry_link">Ireland</button>
+                  </p>
+                  <p class="counry_list">
+                    <button class="counry_link">France</button>
+                  </p>
+                  <p class="counry_list">
+                    <button class="counry_link">Japan</button>
+                  </p>
+                  <p class="counry_list">
+                    <button class="counry_link">China</button>
+                  </p>
+                  <p class="counry_list">
+                    <button class="counry_link">Taiwan</button>
+                  </p>
+                </div>
+              </div>
+            </div>
+          </form>
+        </div>
+      </div>
+      </header>
+      <section class="concert-list">
+        <div class="concert-container">
+          <div class="card-list js-list gallery">
+            <!-- Список <li> с карточками изображений -->
+          </div>
+        </div>
+      </section>
+
+    <footer class="footer"> 
+      <div class="concert-list">
+      <div class="container">
+        <p class="footer__text">
+          © 2021
+          <span class="footer__vertikal-line">|</span>
+          All Rights Reserved
+          <span class="footer__vertikal-line">|</span>
+        </p>
+        <p class="footer__text">
+          Developed with
+          <span class="footer__text-icons">♥</span>
+          by GoIT Students
+        </p>
+      </div>
+      </div>
+    </footer>
+    <div class="preloader">
+      <div class="head">
+        <div class="eyes"></div>
+      </div>
+    </div>
+
+<!-- MODAL  -->
+      
+    <div class="backdrop backdrop--hiden" data-backdrop>
+      <div class="modal">
+        <button data-close-modal type="button">
+          <svg class="close-icon">
+            <use href="./images/icon/symbol-defs.svg#icon-close"></use>
+          </svg>
+        </button>
+        <div class="js-modalTpl"></div>
+
+        <button class="modal-btn btn-more" type="button">MORE FROM THIS AUTHOR</button>
+      </div>
+
+    </div>
+
+  </body>
+</html>

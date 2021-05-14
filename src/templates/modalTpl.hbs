@@ -1,0 +1,57 @@
+{{!-- <div class="backdrop backdrop--hiden" data-backdrop> --}}
+    {{!-- <div class="modal"> --}}
+        {{!-- <button data-close-modal type="button">
+          <svg class="close-icon">
+            <use href="./images/icon/symbol-defs.svg#icon-close"></use>
+          </svg>
+        </button> --}}
+<div class="hbs">
+    <div class="thumb">
+    <img class="modal-icon" src="./images/hero_mobile.jpg" alt="">
+  </div>
+
+  <div class="modal-info">
+    <div class="modal-img-thumb">
+      <img class="modal-img" src="./images/hero_mobile.jpg" alt="">
+    </div>
+    <ul class="modal-details">
+      <li class="modal-item">
+        <p class="modal-item__header">INFO</p>
+        <p class="modal-item__descr">{{info}}</p>
+      </li>
+      <li class="modal-item">
+        <p class="modal-item__header">WHEN</p>
+        <p class="modal-item__descr">{{data}}<br>{{time}} ({{timeZone}})</p>
+      </li>
+      <li class="modal-item">
+        <p class="modal-item__header">WHERE</p>
+        <p class="modal-item__descr">{{city}}, {{country}}<br>{{place}}</p>
+      </li>
+      <li class="modal-item">
+        <p class="modal-item__header">WHO</p>
+        <p class="modal-item__descr">{{author}}</p>
+      </li>
+      <li class="modal-item">
+        <p class="modal-item__header">PRICES</p>
+        <div class="price">
+          <svg class="barcode">
+            <use href="./images/icon/symbol-defs.svg#icon-ticket1"></use>
+          </svg>
+          <p class="modal-item__descr price-descr">{{typeOfPrice}} {{from}}-{{to}} {{currency}}</p>
+        </div>
+        <button class="modal-btn" type="button">BUY TICKETS</button>
+        <div class="price">
+          <svg class="barcode">
+            <use href="./images/icon/symbol-defs.svg#icon-ticket2"></use>
+          </svg>
+          <p class="modal-item__descr price-descr">{{typeOfPrice}} {{from}}-{{to}} {{currency}}</p>
+        </div>
+        <button class="modal-btn" type="button">BUY TICKETS</button>
+      </li>
+    </ul>          
+  </div>
+</div>
+        {{!-- <button class="modal-btn btn-more" type="button">MORE FROM THIS AUTHOR</button> --}}
+    {{!-- </div> --}}
+
+{{!-- </div> --}}

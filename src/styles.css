@@ -1,0 +1,6 @@
+@import '../src/css/base/cammon.css';
+@import '../src/css/header.css';
+@import '../src/css/footer.css';
+@import '../src/css/components/preloader.css';
+@import '../src/css/modal.css';
+@import '../src/css/hero.css';
