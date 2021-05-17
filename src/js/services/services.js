@@ -15,7 +15,7 @@ export default class EventsApiService {
     }
 
     const result = await rawResult.json();
-    
+
     // зразу повертаємо масив подій
     return result._embedded.events;
   }
